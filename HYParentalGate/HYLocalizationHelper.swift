@@ -25,7 +25,7 @@ class HYLocalizationHelper: NSObject {
     }
     
     fileprivate func readFromPlist() {
-        guard let bundle = Bundle(identifier: "com.25happyeyes.parentalgate") else { return }
+        let bundle = Bundle(for: self.classForCoder)
         guard let path = bundle.path(forResource: "HYLocalization", ofType: "plist") else { return }
         guard let dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject] else { return }
         plistDict = dict

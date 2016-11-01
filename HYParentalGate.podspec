@@ -99,6 +99,6 @@ parental,gate,protect,content
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources = "HYParentalGate/*.{xcassets, xib}"
+  s.resources = "HYParentalGate/*.{xcassets,xib,plist}"
 
 end

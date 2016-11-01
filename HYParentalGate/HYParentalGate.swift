@@ -64,7 +64,8 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
     // MARK: Private
     
     fileprivate func initGateViewController() {
-        let bundle = Bundle(identifier: "com.25happyeyes.parentalgate")
+        
+        let bundle = Bundle(for: self.classForCoder)
         gateViewController = HYParentalGateViewController(nibName: "HYParentalGateViewController", bundle: bundle)
         gateViewController.view.frame = calculateParentalGateFrame()
         gateViewController.setLanguageCode(languageCode)
