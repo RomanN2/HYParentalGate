@@ -29,7 +29,7 @@ parental,gate,protect,content
                    DESC
 
   s.homepage     = "http://25happyeyes.com/"
-  # s.screenshots  = "https://www.dropbox.com/s/y47n5vfkzl3dlnu/6.png?dl=0"
+  s.screenshots  = "https://www.dropbox.com/s/y47n5vfkzl3dlnu/6.png?dl=0"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -56,7 +56,7 @@ parental,gate,protect,content
   s.author             = { "Roman Nazarkevych" => "rnazarkevych@gmail.com" }
   # Or just: s.author    = "Roman Nazarkevych"
   # s.authors            = { "Roman Nazarkevych" => "rnazarkevych@gmail.com" }
-  # s.social_media_url   = "https://www.facebook.com/roman.nazarkevych"
+  s.social_media_url   = "https://www.facebook.com/roman.nazarkevych"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,7 +64,7 @@ parental,gate,protect,content
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -99,7 +99,6 @@ parental,gate,protect,content
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "Assets.xcassets"
-  # s.resources = "HYParentalGate/Assets.xcassets/*.png"
+  s.resources = "HYParentalGate/*.{xcassets, xib}"
 
 end
