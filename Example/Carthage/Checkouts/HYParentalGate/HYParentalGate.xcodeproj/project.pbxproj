@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2A787C1DC7384D00FD0B4D /* HYParentalGateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A78751DC7384D00FD0B4D /* HYParentalGateViewController.xib */; };
+		2A2A787D1DC7384D00FD0B4D /* HYLocalization.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A78761DC7384D00FD0B4D /* HYLocalization.plist */; };
+		2A2A787E1DC7384D00FD0B4D /* HYParentalGateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A78771DC7384D00FD0B4D /* HYParentalGateViewController.swift */; };
+		2A2A787F1DC7384D00FD0B4D /* HYParentalGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A78781DC7384D00FD0B4D /* HYParentalGate.swift */; };
+		2A2A78801DC7384D00FD0B4D /* HYLocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A78791DC7384D00FD0B4D /* HYLocalizationHelper.swift */; };
+		2A2A78811DC7384D00FD0B4D /* HYCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A787A1DC7384D00FD0B4D /* HYCheckBox.swift */; };
+		2A2A78821DC7384D00FD0B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A787B1DC7384D00FD0B4D /* Assets.xcassets */; };
+		2A432A611DC0DC7500D063D9 /* HYParentalGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A2A78751DC7384D00FD0B4D /* HYParentalGateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYParentalGateViewController.xib; sourceTree = "<group>"; };
+		2A2A78761DC7384D00FD0B4D /* HYLocalization.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYLocalization.plist; sourceTree = "<group>"; };
+		2A2A78771DC7384D00FD0B4D /* HYParentalGateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYParentalGateViewController.swift; sourceTree = "<group>"; };
+		2A2A78781DC7384D00FD0B4D /* HYParentalGate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYParentalGate.swift; sourceTree = "<group>"; };
+		2A2A78791DC7384D00FD0B4D /* HYLocalizationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLocalizationHelper.swift; sourceTree = "<group>"; };
+		2A2A787A1DC7384D00FD0B4D /* HYCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCheckBox.swift; sourceTree = "<group>"; };
+		2A2A787B1DC7384D00FD0B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A432A5C1DC0DC7500D063D9 /* HYParentalGate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYParentalGate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYParentalGate.h; sourceTree = "<group>"; };
+		2A432A601DC0DC7500D063D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A432A581DC0DC7500D063D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A432A521DC0DC7500D063D9 = {
+			isa = PBXGroup;
+			children = (
+				2A432A5E1DC0DC7500D063D9 /* HYParentalGate */,
+				2A432A5D1DC0DC7500D063D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A432A5D1DC0DC7500D063D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A432A5C1DC0DC7500D063D9 /* HYParentalGate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A432A5E1DC0DC7500D063D9 /* HYParentalGate */ = {
+			isa = PBXGroup;
+			children = (
+				2A2A78751DC7384D00FD0B4D /* HYParentalGateViewController.xib */,
+				2A2A78761DC7384D00FD0B4D /* HYLocalization.plist */,
+				2A2A78771DC7384D00FD0B4D /* HYParentalGateViewController.swift */,
+				2A2A78781DC7384D00FD0B4D /* HYParentalGate.swift */,
+				2A2A78791DC7384D00FD0B4D /* HYLocalizationHelper.swift */,
+				2A2A787A1DC7384D00FD0B4D /* HYCheckBox.swift */,
+				2A2A787B1DC7384D00FD0B4D /* Assets.xcassets */,
+				2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */,
+				2A432A601DC0DC7500D063D9 /* Info.plist */,
+			);
+			path = HYParentalGate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A432A591DC0DC7500D063D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A432A611DC0DC7500D063D9 /* HYParentalGate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A432A5B1DC0DC7500D063D9 /* HYParentalGate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A432A641DC0DC7500D063D9 /* Build configuration list for PBXNativeTarget "HYParentalGate" */;
+			buildPhases = (
+				2A432A571DC0DC7500D063D9 /* Sources */,
+				2A432A581DC0DC7500D063D9 /* Frameworks */,
+				2A432A591DC0DC7500D063D9 /* Headers */,
+				2A432A5A1DC0DC7500D063D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYParentalGate;
+			productName = HYParentalGate;
+			productReference = 2A432A5C1DC0DC7500D063D9 /* HYParentalGate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A432A531DC0DC7500D063D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "25 Happy Eyes";
+				TargetAttributes = {
+					2A432A5B1DC0DC7500D063D9 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2A432A561DC0DC7500D063D9 /* Build configuration list for PBXProject "HYParentalGate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A432A521DC0DC7500D063D9;
+			productRefGroup = 2A432A5D1DC0DC7500D063D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A432A5B1DC0DC7500D063D9 /* HYParentalGate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A432A5A1DC0DC7500D063D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2A787D1DC7384D00FD0B4D /* HYLocalization.plist in Resources */,
+				2A2A78821DC7384D00FD0B4D /* Assets.xcassets in Resources */,
+				2A2A787C1DC7384D00FD0B4D /* HYParentalGateViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A432A571DC0DC7500D063D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2A787F1DC7384D00FD0B4D /* HYParentalGate.swift in Sources */,
+				2A2A787E1DC7384D00FD0B4D /* HYParentalGateViewController.swift in Sources */,
+				2A2A78801DC7384D00FD0B4D /* HYLocalizationHelper.swift in Sources */,
+				2A2A78811DC7384D00FD0B4D /* HYCheckBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A432A621DC0DC7500D063D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A432A631DC0DC7500D063D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A432A651DC0DC7500D063D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HYParentalGate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5-Happy-Eyes.HYParentalGate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A432A661DC0DC7500D063D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HYParentalGate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5-Happy-Eyes.HYParentalGate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A432A561DC0DC7500D063D9 /* Build configuration list for PBXProject "HYParentalGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A432A621DC0DC7500D063D9 /* Debug */,
+				2A432A631DC0DC7500D063D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A432A641DC0DC7500D063D9 /* Build configuration list for PBXNativeTarget "HYParentalGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A432A651DC0DC7500D063D9 /* Debug */,
+				2A432A661DC0DC7500D063D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A432A531DC0DC7500D063D9 /* Project object */;
+}
