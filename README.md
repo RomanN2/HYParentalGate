@@ -7,7 +7,7 @@ Applications made for kids very often contain screens that are designed for adul
 From AppStore review guidelines:
 > 24.3 Apps in the Kids Category must get parental permission or use a parental gate before allowing the user to link out of the app or engage in commerce
 
-_HYParentalGate_ is created using Swift 3. It works on all the iPhones, iPods and iPads starting from iOS 8.0. Right now _HYParentalGate_ only supports landscape device modes. Portrait mode support will be added soon.
+_HYParentalGate_ is created using Swift 4. It works on all the iPhones, iPods and iPads starting from iOS 8.0. Right now _HYParentalGate_ only supports landscape device modes. Portrait mode support will be added soon.
 
 _HYParentalGate_ is localized into 2 languages:
 - English - default
