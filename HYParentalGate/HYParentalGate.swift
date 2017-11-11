@@ -18,6 +18,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
     fileprivate let overlayTag = 100
     fileprivate var window: UIWindow!
     fileprivate var successHandler: ()->(Void) = {}
+    fileprivate var cancelHandler: ()->(Void) = {}
     
     fileprivate let hidingAnimationDuration = 0.15
     
@@ -28,13 +29,17 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
     
     public func show(successHandler: @escaping ()->(Void)) {
         initGateViewController()
-        
         self.successHandler = successHandler
         addOverlay()
         overlay?.addSubview(gateViewController.view)
     }
     
-    @objc func hide() {
+    public func show(successHandler: @escaping ()->(Void), cancelHandler: @escaping ()->(Void)) {
+        self.cancelHandler = cancelHandler
+        show(successHandler: successHandler)
+    }
+    
+    func hide() {
         UIView.animate(withDuration: hidingAnimationDuration,
             animations: {
                 self.overlay?.alpha = 0
@@ -83,11 +88,16 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
         overlay?.backgroundColor = UIColor(white: 0.4, alpha: 0.6)
         overlay?.tag = overlayTag
         
-        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(HYParentalGate.hide))
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(HYParentalGate.handleTapOutsideDialog))
         tapRecognizer.delegate = self
         overlay?.addGestureRecognizer(tapRecognizer)
         
         window.addSubview(overlay!)
+    }
+    
+    @objc fileprivate func handleTapOutsideDialog() {
+        cancelHandler()
+        hide()
     }
     
     fileprivate func calculateParentalGateFrame() -> CGRect {

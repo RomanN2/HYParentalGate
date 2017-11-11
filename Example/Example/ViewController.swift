@@ -32,9 +32,15 @@ class ViewController: UIViewController {
 
     func test() {
         print("test")
-        HYParentalGate.sharedGate.show { () -> (Void) in
+//        HYParentalGate.sharedGate.show { () -> (Void) in
+//            print("parental gate passed")
+//        }
+        
+        HYParentalGate.sharedGate.show(successHandler: {
             print("parental gate passed")
-        }
+        }, cancelHandler: {
+            print("parental gate dismissed")
+        })
     }
     
 }

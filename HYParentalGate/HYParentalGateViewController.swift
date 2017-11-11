@@ -122,7 +122,7 @@ class HYParentalGateViewController: UIViewController {
     
     fileprivate func currentDigitLabel() -> UILabel! {
         for label in digitLabels {
-            if label.text?.characters.count == 0 {
+            if label.text?.count == 0 {
                 return label
             }
         }
@@ -131,7 +131,7 @@ class HYParentalGateViewController: UIViewController {
     
     fileprivate func lastDigitLabel() -> UILabel! {
         for label in digitLabels.reversed() {
-            if (label.text?.characters.count)! > 0 {
+            if (label.text?.count)! > 0 {
                 return label
             }
         }
@@ -141,7 +141,7 @@ class HYParentalGateViewController: UIViewController {
     fileprivate func allDigitsEntered() -> Bool {
         guard let lastLabel = digitLabels.last else { return false }
         guard let text = lastLabel.text else { return false }
-        return text.characters.count > 0
+        return text.count > 0
     }
     
     fileprivate func shake(_ view: UIView) {
