@@ -17,7 +17,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
     fileprivate var overlay: UIView?
     fileprivate let overlayTag = 100
     fileprivate var window: UIWindow!
-    fileprivate var successHandler: (Void)->(Void) = {}
+    fileprivate var successHandler: ()->(Void) = {}
     
     fileprivate let hidingAnimationDuration = 0.15
     
@@ -26,7 +26,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
         initWindow()
     }
     
-    public func show(successHandler: @escaping (Void)->(Void)) {
+    public func show(successHandler: @escaping ()->(Void)) {
         initGateViewController()
         
         self.successHandler = successHandler
@@ -34,7 +34,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
         overlay?.addSubview(gateViewController.view)
     }
     
-    func hide() {
+    @objc func hide() {
         UIView.animate(withDuration: hidingAnimationDuration,
             animations: {
                 self.overlay?.alpha = 0
@@ -57,7 +57,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
         perform(#selector(HYParentalGate.fireSuccessHandler), with: nil, afterDelay: hidingAnimationDuration)
     }
     
-    func fireSuccessHandler() {
+    @objc func fireSuccessHandler() {
         successHandler()
     }
     

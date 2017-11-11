@@ -49,7 +49,7 @@ class HYParentalGateViewController: UIViewController {
         enterNumbersLabel.text = localizationHelper.stringForKey("enter_numbers")
     }
     
-    func clearAllDigitLabels() {
+    @objc func clearAllDigitLabels() {
         for label in digitLabels {
             label.text = ""
         }
@@ -87,11 +87,11 @@ class HYParentalGateViewController: UIViewController {
         perform(#selector(HYParentalGateViewController.notifyDelegateThatPinEntered), with: nil, afterDelay: 1.2)
     }
     
-    func notifyDelegateThatPinEntered() {
+    @objc func notifyDelegateThatPinEntered() {
         delegate!.allDigitsAreEnteredCorrectly()
     }
     
-    func handleWrongPin() {
+    @objc func handleWrongPin() {
         shake(digitsView)
         perform(#selector(HYParentalGateViewController.clearAllDigitLabels), with: nil, afterDelay: 0.2)
     }

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D85E151FB729AE00A5EC13 /* HYParentalGateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D85E0D1FB729AD00A5EC13 /* HYParentalGateViewController.xib */; };
+		30D85E161FB729AE00A5EC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D85E0E1FB729AD00A5EC13 /* Assets.xcassets */; };
+		30D85E171FB729AE00A5EC13 /* HYParentalGateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D85E0F1FB729AD00A5EC13 /* HYParentalGateViewController.swift */; };
+		30D85E181FB729AE00A5EC13 /* HYParentalGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D85E111FB729AD00A5EC13 /* HYParentalGate.swift */; };
+		30D85E191FB729AE00A5EC13 /* HYCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D85E121FB729AD00A5EC13 /* HYCheckBox.swift */; };
+		30D85E1A1FB729AE00A5EC13 /* HYLocalization.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30D85E131FB729AE00A5EC13 /* HYLocalization.plist */; };
+		30D85E1B1FB729AE00A5EC13 /* HYLocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D85E141FB729AE00A5EC13 /* HYLocalizationHelper.swift */; };
 		42052C201DD0284E00441883 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 42052C1F1DD0284E00441883 /* Cartfile */; };
 		42052C241DD02B0C00441883 /* HYParentalGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42052C231DD02B0C00441883 /* HYParentalGate.framework */; };
 		422602C51DD021910008C4F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422602C41DD021910008C4F5 /* AppDelegate.swift */; };
@@ -17,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30D85E0D1FB729AD00A5EC13 /* HYParentalGateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HYParentalGateViewController.xib; path = ../HYParentalGate/HYParentalGateViewController.xib; sourceTree = "<group>"; };
+		30D85E0E1FB729AD00A5EC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../HYParentalGate/Assets.xcassets; sourceTree = "<group>"; };
+		30D85E0F1FB729AD00A5EC13 /* HYParentalGateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYParentalGateViewController.swift; path = ../HYParentalGate/HYParentalGateViewController.swift; sourceTree = "<group>"; };
+		30D85E101FB729AD00A5EC13 /* HYParentalGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYParentalGate.h; path = ../HYParentalGate/HYParentalGate.h; sourceTree = "<group>"; };
+		30D85E111FB729AD00A5EC13 /* HYParentalGate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYParentalGate.swift; path = ../HYParentalGate/HYParentalGate.swift; sourceTree = "<group>"; };
+		30D85E121FB729AD00A5EC13 /* HYCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYCheckBox.swift; path = ../HYParentalGate/HYCheckBox.swift; sourceTree = "<group>"; };
+		30D85E131FB729AE00A5EC13 /* HYLocalization.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = HYLocalization.plist; path = ../HYParentalGate/HYLocalization.plist; sourceTree = "<group>"; };
+		30D85E141FB729AE00A5EC13 /* HYLocalizationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYLocalizationHelper.swift; path = ../HYParentalGate/HYLocalizationHelper.swift; sourceTree = "<group>"; };
 		42052C1F1DD0284E00441883 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		42052C231DD02B0C00441883 /* HYParentalGate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HYParentalGate.framework; path = Carthage/Build/iOS/HYParentalGate.framework; sourceTree = "<group>"; };
 		422602C11DD021910008C4F5 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +55,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30D85E0C1FB7298800A5EC13 /* HYParentalGate */ = {
+			isa = PBXGroup;
+			children = (
+				30D85E0E1FB729AD00A5EC13 /* Assets.xcassets */,
+				30D85E121FB729AD00A5EC13 /* HYCheckBox.swift */,
+				30D85E131FB729AE00A5EC13 /* HYLocalization.plist */,
+				30D85E141FB729AE00A5EC13 /* HYLocalizationHelper.swift */,
+				30D85E101FB729AD00A5EC13 /* HYParentalGate.h */,
+				30D85E111FB729AD00A5EC13 /* HYParentalGate.swift */,
+				30D85E0F1FB729AD00A5EC13 /* HYParentalGateViewController.swift */,
+				30D85E0D1FB729AD00A5EC13 /* HYParentalGateViewController.xib */,
+			);
+			name = HYParentalGate;
+			sourceTree = "<group>";
+		};
 		42052C221DD02B0C00441883 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +81,7 @@
 		422602B81DD021910008C4F5 = {
 			isa = PBXGroup;
 			children = (
+				30D85E0C1FB7298800A5EC13 /* HYParentalGate */,
 				422602C31DD021910008C4F5 /* Example */,
 				422602C21DD021910008C4F5 /* Products */,
 				42052C221DD02B0C00441883 /* Frameworks */,
@@ -89,7 +120,6 @@
 				422602BD1DD021910008C4F5 /* Sources */,
 				422602BE1DD021910008C4F5 /* Frameworks */,
 				422602BF1DD021910008C4F5 /* Resources */,
-				42052C211DD02AAA00441883 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -143,35 +173,25 @@
 				422602CC1DD021910008C4F5 /* Assets.xcassets in Resources */,
 				42052C201DD0284E00441883 /* Cartfile in Resources */,
 				422602CA1DD021910008C4F5 /* Main.storyboard in Resources */,
+				30D85E1A1FB729AE00A5EC13 /* HYLocalization.plist in Resources */,
+				30D85E161FB729AE00A5EC13 /* Assets.xcassets in Resources */,
+				30D85E151FB729AE00A5EC13 /* HYParentalGateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		42052C211DD02AAA00441883 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/HYParentalGate.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		422602BD1DD021910008C4F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D85E181FB729AE00A5EC13 /* HYParentalGate.swift in Sources */,
+				30D85E171FB729AE00A5EC13 /* HYParentalGateViewController.swift in Sources */,
+				30D85E191FB729AE00A5EC13 /* HYCheckBox.swift in Sources */,
 				422602C71DD021910008C4F5 /* ViewController.swift in Sources */,
 				422602C51DD021910008C4F5 /* AppDelegate.swift in Sources */,
+				30D85E1B1FB729AE00A5EC13 /* HYLocalizationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
