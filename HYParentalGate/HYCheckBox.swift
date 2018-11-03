@@ -10,7 +10,7 @@ import UIKit
 
 class HYCheckBox: UIView {
     
-    func drawCheck() {
+    @objc func drawCheck() {
         let path = UIBezierPath()
         path.move(to: CGPoint(x: 0, y: self.frame.size.height / 2.0))
         path.addLine(to: CGPoint(x: self.frame.size.width / 2.0, y: self.frame.size.height))
@@ -22,7 +22,7 @@ class HYCheckBox: UIView {
         pathLayer.strokeColor = UIColor.green.cgColor
         pathLayer.fillColor = nil
         pathLayer.lineWidth = 15.0
-        pathLayer.lineJoin = kCALineJoinRound
+        pathLayer.lineJoin = CAShapeLayerLineJoin.round
         self.layer.addSublayer(pathLayer)
         
         let pathAnimation = CABasicAnimation(keyPath: "strokeEnd")

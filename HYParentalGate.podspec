@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HYParentalGate"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "Parental Gate control"
 
   s.description  = <<-DESC
@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
 
 
   s.author             = { "Roman Nazarkevych" => "rnazarkevych@gmail.com" }
-  s.social_media_url   = "https://www.facebook.com/roman.nazarkevych"
+  s.social_media_url   = "https://twitter.com/RomanN2"
 
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
 
 
-  s.source       = { :git => "https://github.com/RomanN2/HYParentalGate.git", :tag => "1.0.4" }
+  s.source       = { :git => "https://github.com/RomanN2/HYParentalGate.git", :tag => "1.0.5" }
   s.source_files  = "HYParentalGate", "HYParentalGate/**/*.{h,m,swift}"
   s.resources = "HYParentalGate/*.{xcassets,xib,plist}"
 
