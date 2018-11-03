@@ -1,0 +1,16 @@
+PODS:
+  - HYParentalGate (1.0.4)
+
+DEPENDENCIES:
+  - HYParentalGate
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HYParentalGate
+
+SPEC CHECKSUMS:
+  HYParentalGate: 0ef967344fbbab7a021aec8d397f9584b53bf7c7
+
+PODFILE CHECKSUM: f2de89708d54ddcdf87ec25ff99cbeb916161c30
+
+COCOAPODS: 1.5.3
