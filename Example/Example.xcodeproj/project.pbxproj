@@ -12,7 +12,7 @@
 		30386EA3218E268E00EBF054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30386EA1218E268E00EBF054 /* Main.storyboard */; };
 		30386EA5218E269100EBF054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30386EA4218E269100EBF054 /* Assets.xcassets */; };
 		30386EA8218E269100EBF054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30386EA6218E269100EBF054 /* LaunchScreen.storyboard */; };
-		843B5D533C97B6621F57B9D9 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857D047BD005FD674609BD46 /* Pods_Example.framework */; };
+		63CE58E1F535A90024F186E7 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB31A8494121AC19D06607CC /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		30386EA4218E269100EBF054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30386EA7218E269100EBF054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30386EA9218E269100EBF054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		857D047BD005FD674609BD46 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB31A8494121AC19D06607CC /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4EA7DC15020C1B8859B4AB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E8B6B859B8025DAB42FCCA55 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843B5D533C97B6621F57B9D9 /* Pods_Example.framework in Frameworks */,
+				63CE58E1F535A90024F186E7 /* libPods-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		19FAE63BE3E835EDA0AD5C8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				857D047BD005FD674609BD46 /* Pods_Example.framework */,
+				BB31A8494121AC19D06607CC /* libPods-Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 				30386E96218E268E00EBF054 /* Sources */,
 				30386E97218E268E00EBF054 /* Frameworks */,
 				30386E98218E268E00EBF054 /* Resources */,
-				C893A43AD54B33C70A9C3663 /* [CP] Embed Pods Frameworks */,
+				E0F750C9D64F855D813DFD3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,7 +157,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C893A43AD54B33C70A9C3663 /* [CP] Embed Pods Frameworks */ = {
+		E0F750C9D64F855D813DFD3B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,18 +165,22 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HYParentalGate/HYParentalGate.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh",
+				"${PODS_ROOT}/HYParentalGate/HYParentalGate/HYParentalGateViewController.xib",
+				"${PODS_ROOT}/HYParentalGate/HYParentalGate/Assets.xcassets",
+				"${PODS_ROOT}/HYParentalGate/HYParentalGate/HYLocalization.plist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYParentalGate.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HYParentalGateViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HYLocalization.plist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1FD5F9476999B912F74A230 /* [CP] Check Pods Manifest.lock */ = {

@@ -1,5 +1,5 @@
 PODS:
-  - HYParentalGate (1.0.4)
+  - HYParentalGate (1.0.8)
 
 DEPENDENCIES:
   - HYParentalGate
@@ -9,8 +9,8 @@ SPEC REPOS:
     - HYParentalGate
 
 SPEC CHECKSUMS:
-  HYParentalGate: 0ef967344fbbab7a021aec8d397f9584b53bf7c7
+  HYParentalGate: 7de99e0a58a1121ef3039e336b0d7c44438c95e3
 
-PODFILE CHECKSUM: f2de89708d54ddcdf87ec25ff99cbeb916161c30
+PODFILE CHECKSUM: 5120a56415cda7a13eb35884cda1b4cfc2802ab6
 
 COCOAPODS: 1.5.3
