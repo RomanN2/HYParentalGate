@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HYParentalGate"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "Parental Gate control"
 
   s.description  = <<-DESC
@@ -22,8 +22,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
 
-  s.source       = { :git => "https://github.com/RomanN2/HYParentalGate.git", :tag => "1.0.6" }
+  s.source       = { :git => "https://github.com/RomanN2/HYParentalGate.git", :tag => "1.0.7" }
   s.source_files  = "HYParentalGate", "HYParentalGate/**/*.{swift}"
   s.resources = "HYParentalGate/*.{xcassets,xib}"
 
+  s.swift_version = "4.2"
 end
