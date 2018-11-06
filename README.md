@@ -16,7 +16,7 @@ _HYParentalGate_ is localized into 2 languages:
 __20__ more languages are going to be added very soon.
 
 ## Screenshot
-![HYParentalGate Example](https://s22.postimg.org/3rq8shbcx/Parental_Gate.png)
+![HYParentalGate Example](https://raw.githubusercontent.com/RomanN2/HYParentalGate/master/.github/Screenshot.jpeg)
 
 ## Usage
 ``` swift
@@ -28,17 +28,18 @@ HYParentalGate.sharedGate.show(successHandler: {
 // Basically here you just navigate to the next screen
 }
 ```
-There is no failure block since we could not come up with the idea where it may be used :) If dialog was dismissed you just stay where you've been before.
 
 Also here is an example of how to use localized version of the _HYParentlGate_:
 ```swift
 import HYParentalGate
 
-let parentalGate = HYParentalGate.sharedGate
-parentalGate.languageCode = "uk"
-parentalGate.show(successHandler: {
-// Code was entered correctly. Handle this properly.
-})
+func showParentalGate() {
+    HYParentalGate.sharedGate.show(successHandler: {
+        print("parental gate passed")
+    }, cancelHandler: {
+        print("parental gate dismissed")
+    })
+}
 ```
 
 ## License

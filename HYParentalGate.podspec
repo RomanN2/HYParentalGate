@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HYParentalGate"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "Parental Gate control"
 
   s.description  = <<-DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                     DESC
 
   s.homepage     = "https://github.com/RomanN2/HYParentalGate"
-  s.screenshots  = "https://s22.postimg.org/3rq8shbcx/Parental_Gate.png"
+  s.screenshots  = "https://raw.githubusercontent.com/RomanN2/HYParentalGate/master/.github/Screenshot.jpeg"
 
   s.license      = "MIT"
 
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
 
-  s.source       = { :git => "https://github.com/RomanN2/HYParentalGate.git", :tag => "1.0.5" }
-  s.source_files  = "HYParentalGate", "HYParentalGate/**/*.{h,m,swift}"
-  s.resources = "HYParentalGate/*.{xcassets,xib,plist}"
+  s.source       = { :git => "https://github.com/RomanN2/HYParentalGate.git", :tag => "1.0.6" }
+  s.source_files  = "HYParentalGate", "HYParentalGate/**/*.{swift}"
+  s.resources = "HYParentalGate/*.{xcassets,xib}"
 
 end
