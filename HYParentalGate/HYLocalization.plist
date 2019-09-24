@@ -2,6 +2,330 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>fr</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Seulement pour adultes!</string>
+		<key>enter_numbers</key>
+		<string>S&apos;il vous plaît mettez les chiffres:</string>
+		<key>1</key>
+		<string>Un</string>
+		<key>2</key>
+		<string>Deux</string>
+		<key>3</key>
+		<string>Trois</string>
+		<key>4</key>
+		<string>Quatre</string>
+		<key>5</key>
+		<string>Cinq</string>
+		<key>6</key>
+		<string>Six</string>
+		<key>7</key>
+		<string>Sept</string>
+		<key>8</key>
+		<string>Huit</string>
+		<key>9</key>
+		<string>Neuf</string>
+		<key>0</key>
+		<string>Zéro</string>
+	</dict>
+	<key>ru</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Только для взрослых!</string>
+		<key>enter_numbers</key>
+		<string>Пожалуйста, введите цифры:</string>
+		<key>1</key>
+		<string>Один</string>
+		<key>2</key>
+		<string>Два</string>
+		<key>3</key>
+		<string>Три</string>
+		<key>4</key>
+		<string>Четыре</string>
+		<key>5</key>
+		<string>Пять</string>
+		<key>6</key>
+		<string>Шесть</string>
+		<key>7</key>
+		<string>Семь</string>
+		<key>8</key>
+		<string>Восемь</string>
+		<key>9</key>
+		<string>Девять</string>
+		<key>0</key>
+		<string>Ноль</string>
+	</dict>
+	<key>uk</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Тільки для дорослих!</string>
+		<key>enter_numbers</key>
+		<string>Будь ласка, введіть цифри:</string>
+		<key>1</key>
+		<string>Один</string>
+		<key>2</key>
+		<string>Два</string>
+		<key>3</key>
+		<string>Три</string>
+		<key>4</key>
+		<string>Чотири</string>
+		<key>5</key>
+		<string>П&apos;ять</string>
+		<key>6</key>
+		<string>Шість</string>
+		<key>7</key>
+		<string>Сім</string>
+		<key>8</key>
+		<string>Вісім</string>
+		<key>9</key>
+		<string>Дев&apos;ять</string>
+		<key>0</key>
+		<string>Нуль</string>
+	</dict>
+	<key>de</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Nur für die Erwachsenen!</string>
+		<key>enter_numbers</key>
+		<string>Führen Sie die Zahlen hinein:</string>
+		<key>1</key>
+		<string>Eins</string>
+		<key>2</key>
+		<string>Zwei</string>
+		<key>3</key>
+		<string>Drei</string>
+		<key>4</key>
+		<string>Vier</string>
+		<key>5</key>
+		<string>Fünf</string>
+		<key>6</key>
+		<string>Sechs</string>
+		<key>7</key>
+		<string>Sieben</string>
+		<key>8</key>
+		<string>Acht</string>
+		<key>9</key>
+		<string>Neun</string>
+		<key>0</key>
+		<string>Null</string>
+	</dict>
+	<key>tr</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Sadece yetişkinler için!</string>
+		<key>enter_numbers</key>
+		<string>ELütfen, rakamları giriniz:</string>
+		<key>1</key>
+		<string>Bir</string>
+		<key>2</key>
+		<string>Iki</string>
+		<key>3</key>
+		<string>Üç</string>
+		<key>4</key>
+		<string>Dört</string>
+		<key>5</key>
+		<string>Beş</string>
+		<key>6</key>
+		<string>Altı</string>
+		<key>7</key>
+		<string>Yedi</string>
+		<key>8</key>
+		<string>Sekiz</string>
+		<key>9</key>
+		<string>Dokuz</string>
+		<key>0</key>
+		<string>Sıfır</string>
+	</dict>
+	<key>pl</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Tylko dla dorosłych!</string>
+		<key>enter_numbers</key>
+		<string>Proszę wprowadzić cyfry:</string>
+		<key>1</key>
+		<string>Jeden</string>
+		<key>2</key>
+		<string>Dwa</string>
+		<key>3</key>
+		<string>Trzy</string>
+		<key>4</key>
+		<string>Cztery</string>
+		<key>5</key>
+		<string>Pięć</string>
+		<key>6</key>
+		<string>Sześć</string>
+		<key>7</key>
+		<string>Siedem</string>
+		<key>8</key>
+		<string>Osiem</string>
+		<key>9</key>
+		<string>Dziewięć</string>
+		<key>0</key>
+		<string>Zero</string>
+	</dict>
+	<key>cz</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Pouze pro dospělé!</string>
+		<key>enter_numbers</key>
+		<string>Prosím, zadejte čísla:</string>
+		<key>1</key>
+		<string>Jeden</string>
+		<key>2</key>
+		<string>Dva</string>
+		<key>3</key>
+		<string>Tři</string>
+		<key>4</key>
+		<string>Čtyři</string>
+		<key>5</key>
+		<string>Pět</string>
+		<key>6</key>
+		<string>Šest</string>
+		<key>7</key>
+		<string>Sedm</string>
+		<key>8</key>
+		<string>Osm</string>
+		<key>9</key>
+		<string>Devět</string>
+		<key>0</key>
+		<string>Nula</string>
+	</dict>
+	<key>dk</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Bare for voksne!</string>
+		<key>enter_numbers</key>
+		<string>Vær så snill å innføre sifre:</string>
+		<key>1</key>
+		<string>Ett</string>
+		<key>2</key>
+		<string>To</string>
+		<key>3</key>
+		<string>Tre</string>
+		<key>4</key>
+		<string>Fire</string>
+		<key>5</key>
+		<string>Fem</string>
+		<key>6</key>
+		<string>Seks</string>
+		<key>7</key>
+		<string>Sju</string>
+		<key>8</key>
+		<string>Åtte</string>
+		<key>9</key>
+		<string>Ni</string>
+		<key>0</key>
+		<string>Null</string>
+	</dict>
+	<key>no</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Bare for voksne!</string>
+		<key>enter_numbers</key>
+		<string>Vær så snill å innføre sifre:</string>
+		<key>1</key>
+		<string>Ett</string>
+		<key>2</key>
+		<string>To</string>
+		<key>3</key>
+		<string>Tre</string>
+		<key>4</key>
+		<string>Fire</string>
+		<key>5</key>
+		<string>Fem</string>
+		<key>6</key>
+		<string>Seks</string>
+		<key>7</key>
+		<string>Sju</string>
+		<key>8</key>
+		<string>Åtte</string>
+		<key>9</key>
+		<string>Ni</string>
+		<key>0</key>
+		<string>Null</string>
+	</dict>
+	<key>se</key>
+	<dict>
+		<key>adults_only</key>
+		<string>Bara för de vuxna!</string>
+		<key>enter_numbers</key>
+		<string>Varsågod och inför siffror:</string>
+		<key>1</key>
+		<string>En</string>
+		<key>2</key>
+		<string>Två</string>
+		<key>3</key>
+		<string>Tre</string>
+		<key>4</key>
+		<string>Fyra</string>
+		<key>5</key>
+		<string>Fem</string>
+		<key>6</key>
+		<string>Sex</string>
+		<key>7</key>
+		<string>Sju</string>
+		<key>8</key>
+		<string>Åtta</string>
+		<key>9</key>
+		<string>Nio</string>
+		<key>0</key>
+		<string>Noll</string>
+	</dict>
+	<key>en-GB</key>
+	<dict>
+		<key>adults_only</key>
+		<string>For adults only!</string>
+		<key>enter_numbers</key>
+		<string>Enter the numbers, please:</string>
+		<key>1</key>
+		<string>One</string>
+		<key>2</key>
+		<string>Two</string>
+		<key>3</key>
+		<string>Three</string>
+		<key>4</key>
+		<string>Four</string>
+		<key>5</key>
+		<string>Five</string>
+		<key>6</key>
+		<string>Six</string>
+		<key>7</key>
+		<string>Seven</string>
+		<key>8</key>
+		<string>Eight</string>
+		<key>9</key>
+		<string>Nine</string>
+		<key>0</key>
+		<string>Zero</string>
+	</dict>
+	<key>en-US</key>
+	<dict>
+		<key>adults_only</key>
+		<string>For adults only!</string>
+		<key>enter_numbers</key>
+		<string>Enter the numbers, please:</string>
+		<key>1</key>
+		<string>One</string>
+		<key>2</key>
+		<string>Two</string>
+		<key>3</key>
+		<string>Three</string>
+		<key>4</key>
+		<string>Four</string>
+		<key>5</key>
+		<string>Five</string>
+		<key>6</key>
+		<string>Six</string>
+		<key>7</key>
+		<string>Seven</string>
+		<key>8</key>
+		<string>Eight</string>
+		<key>9</key>
+		<string>Nine</string>
+		<key>0</key>
+		<string>Zero</string>
+	</dict>
 	<key>en</key>
 	<dict>
 		<key>adults_only</key>
@@ -14,47 +338,20 @@
 		<string>Two</string>
 		<key>3</key>
 		<string>Three</string>
-        <key>4</key>
-        <string>Four</string>
-        <key>5</key>
-        <string>Five</string>
-        <key>6</key>
-        <string>Six</string>
-        <key>7</key>
-        <string>Seven</string>
-        <key>8</key>
-        <string>Eight</string>
-        <key>9</key>
-        <string>Nine</string>
-        <key>0</key>
-        <string>Zero</string>
+		<key>4</key>
+		<string>Four</string>
+		<key>5</key>
+		<string>Five</string>
+		<key>6</key>
+		<string>Six</string>
+		<key>7</key>
+		<string>Seven</string>
+		<key>8</key>
+		<string>Eight</string>
+		<key>9</key>
+		<string>Nine</string>
+		<key>0</key>
+		<string>Zero</string>
 	</dict>
-    <key>uk</key>
-    <dict>
-        <key>adults_only</key>
-        <string>Тільки для дорослих!</string>
-        <key>enter_numbers</key>
-        <string>Будь ласка, введіть цифри:</string>
-        <key>1</key>
-        <string>Один</string>
-        <key>2</key>
-        <string>Два</string>
-        <key>3</key>
-        <string>Три</string>
-        <key>4</key>
-        <string>Чотири</string>
-        <key>5</key>
-        <string>П'ять</string>
-        <key>6</key>
-        <string>Шість</string>
-        <key>7</key>
-        <string>Сім</string>
-        <key>8</key>
-        <string>Вісім</string>
-        <key>9</key>
-        <string>Дев'ять</string>
-        <key>0</key>
-        <string>Нуль</string>
-    </dict>
 </dict>
 </plist>
