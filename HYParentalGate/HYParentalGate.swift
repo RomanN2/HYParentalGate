@@ -13,6 +13,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
     public static let sharedGate = HYParentalGate()
     var gateViewController: HYParentalGateViewController!
     public var languageCode: String = "en"
+    public var UIConfig: HYParentalGateUIConfig?
     
     fileprivate var overlay: UIView?
     fileprivate let overlayTag = 100
@@ -75,6 +76,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
         gateViewController.view.frame = calculateParentalGateFrame()
         gateViewController.setLanguageCode(languageCode)
         gateViewController.delegate = self
+        gateViewController.config = UIConfig
         gateViewController.setup()
     }
     
