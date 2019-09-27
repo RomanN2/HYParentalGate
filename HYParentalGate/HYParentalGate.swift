@@ -28,6 +28,10 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
         initWindow()
     }
     
+    public func setupCustomUI(with config: HYParentalGateUIConfig) {
+        self.UIConfig = config
+    }
+    
     public func show(successHandler: @escaping ()->(Void)) {
         initGateViewController()
         self.successHandler = successHandler
