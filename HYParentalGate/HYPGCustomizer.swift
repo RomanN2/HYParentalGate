@@ -29,6 +29,7 @@ class HYPGCustomizer: NSObject {
         
         controller.numbers.forEach {
             $0.titleLabel?.font = config.font.numbersLabelsFont
+            $0.setTitleColor(config.fontColor.numbersLabelsColor, for: .normal)
             $0.titleLabel?.textColor = config.fontColor.numbersLabelsColor
             $0.layer.cornerRadius = config.cornerRadius.numbersCornerRadius
             $0.backgroundColor = config.backgroundColor.numbersBackgroundColor
@@ -44,6 +45,7 @@ class HYPGCustomizer: NSObject {
             $0.font = config.font.numbersLabelsFont
             $0.textColor = config.fontColor.numbersLabelsColor
             $0.backgroundColor = config.backgroundColor.digitsBackgroundColor
+            $0.layer.masksToBounds = true
             $0.layer.cornerRadius = config.cornerRadius.digitsCornerRadius
         }
     }

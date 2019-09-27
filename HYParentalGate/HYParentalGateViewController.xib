@@ -252,6 +252,7 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM6-w3-fia">
                             <rect key="frame" x="407" y="21.5" width="76" height="47"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="76" id="Otw-SW-35l"/>
                                 <constraint firstAttribute="height" constant="47" id="pel-ld-ynB"/>
