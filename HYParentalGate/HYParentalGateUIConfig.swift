@@ -77,13 +77,15 @@ public struct HYPGBackgroundColor {
     let numbersBorderBackgroundColor: UIColor
     let digitsBackgroundColor: UIColor
     let digitsBorderBackgroundColor: UIColor
+    let checkMarkColor: UIColor
     
-    public init(containerBackgroundColor: UIColor, numbersBackgroundColor: UIColor, numbersBorderBackgroundColor: UIColor, digitsBackgroundColor: UIColor, digitsBorderBackgroundColor: UIColor) {
+    public init(containerBackgroundColor: UIColor, numbersBackgroundColor: UIColor, numbersBorderBackgroundColor: UIColor, digitsBackgroundColor: UIColor, digitsBorderBackgroundColor: UIColor, checkMarkColor: UIColor) {
         self.containerBackgroundColor = containerBackgroundColor
         self.numbersBackgroundColor = numbersBackgroundColor
         self.numbersBorderBackgroundColor = numbersBorderBackgroundColor
         self.digitsBackgroundColor = digitsBackgroundColor
         self.digitsBorderBackgroundColor = digitsBorderBackgroundColor
+        self.checkMarkColor = checkMarkColor
     }
 }
 

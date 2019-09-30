@@ -77,6 +77,7 @@ class HYParentalGateViewController: UIViewController {
             UIcustomizer.customizeDigits(with: config)
             UIcustomizer.customizeNumbers(with: config)
             UIcustomizer.customizeContainer(with: config)
+            self.checkbox.checkMarkColor = config.backgroundColor.checkMarkColor.cgColor
         }
     }
     
