@@ -14,6 +14,8 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
     var gateViewController: HYParentalGateViewController!
     public var languageCode: String = "en"
     public var UIConfig: HYParentalGateUIConfig?
+    public var ipadMultiplier: CGFloat?
+    public var iphoneMultiplier: CGFloat?
     
     fileprivate var overlay: UIView?
     fileprivate let overlayTag = 100
@@ -107,14 +109,22 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
     }
     
     fileprivate func calculateParentalGateFrame() -> CGRect {
-        let widthCoeff: CGFloat
-        let heightCoeff: CGFloat
+        var widthCoeff: CGFloat
+        var heightCoeff: CGFloat
         if(UIDevice.current.userInterfaceIdiom == .pad){
             widthCoeff = 0.5
             heightCoeff = 0.5
+            if let multiplier = ipadMultiplier {
+                widthCoeff = multiplier
+                heightCoeff = multiplier
+            }
         } else {
             widthCoeff = 0.85
             heightCoeff = 0.85
+            if let multiplier = iphoneMultiplier {
+                widthCoeff = multiplier
+                heightCoeff = multiplier
+            }
         }
         
         let gateWidth = widthCoeff * window.frame.size.width
