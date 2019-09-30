@@ -22,6 +22,7 @@ class HYPGCustomizer: NSObject {
         controller.container.layer.borderWidth = config.borderWidth.containerBorderWidth
         controller.container.layer.borderColor = config.borderColor.containerBorderColor.cgColor
         controller.checkbox.backgroundColor = .clear
+        controller.clearButton.backgroundColor = config.backgroundColor.containerBackgroundColor
     }
     
     func customizeNumbers(with config: HYParentalGateUIConfig) {

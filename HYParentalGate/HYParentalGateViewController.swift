@@ -23,6 +23,7 @@ class HYParentalGateViewController: UIViewController {
     @IBOutlet var container: UIView!
     @IBOutlet var numbers: [UIButton]!
     @IBOutlet weak var numbersView: UIView!
+    @IBOutlet weak var clearButton: UIButton!
     
     weak var delegate: HYParentalGateViewDelegate?
     var config: HYParentalGateUIConfig?
