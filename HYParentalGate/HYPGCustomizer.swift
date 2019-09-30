@@ -61,5 +61,12 @@ class HYPGCustomizer: NSObject {
         controller.digitsTextLabel.textColor = config.fontColor.digitsLabelColor
     }
     
+    func setupClearButton() {
+        let image = UIImage(named: "mark")?.withRenderingMode(.alwaysOriginal)
+        let backgroundImage = UIImage(named: "back_arrow")?.withRenderingMode(.alwaysOriginal)
+        controller.clearButton.setImage(image, for: .normal)
+        controller.clearButton.setBackgroundImage(backgroundImage, for: .normal)
+    }
+    
 }
 

@@ -252,7 +252,7 @@
                     <rect key="frame" x="0.0" y="124" width="600" height="90"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM6-w3-fia">
-                            <rect key="frame" x="407" y="21.5" width="76" height="47.000000000000014"/>
+                            <rect key="frame" x="407" y="21.5" width="76" height="47"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="76" id="Otw-SW-35l"/>
@@ -260,7 +260,6 @@
                             </constraints>
                             <inset key="imageEdgeInsets" minX="11" minY="0.0" maxX="0.0" maxY="0.0"/>
                             <state key="normal" image="mark" backgroundImage="back_arrow"/>
-                            <state key="highlighted" image="erase-pressed"/>
                             <connections>
                                 <action selector="onEraseAction:" destination="-1" eventType="touchUpInside" id="wK1-lX-WoO"/>
                             </connections>
@@ -353,7 +352,6 @@
     </objects>
     <resources>
         <image name="back_arrow" width="78" height="49"/>
-        <image name="erase-pressed" width="76" height="47"/>
         <image name="mark" width="14" height="14"/>
     </resources>
 </document>
