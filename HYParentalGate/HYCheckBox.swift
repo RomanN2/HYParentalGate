@@ -21,11 +21,7 @@ class HYCheckBox: UIView {
         let pathLayer = CAShapeLayer()
         pathLayer.frame = self.bounds
         pathLayer.path = path.cgPath
-        if let markColor = checkMarkColor {
-            pathLayer.strokeColor = markColor
-        } else {
-            pathLayer.strokeColor = UIColor.green.cgColor
-        }
+        pathLayer.strokeColor = checkMarkColor
         pathLayer.fillColor = nil
         pathLayer.lineWidth = 15.0
         pathLayer.lineJoin = CAShapeLayerLineJoin.round

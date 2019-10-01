@@ -20,7 +20,7 @@ class HYParentalGateViewController: UIViewController {
     @IBOutlet var digitLabels: [UILabel]!
     @IBOutlet weak var enterNumbersLabel: UILabel!
     @IBOutlet weak var forAdultsLabel: UILabel!
-    @IBOutlet var container: UIView!
+    @IBOutlet weak var container: UIView!
     @IBOutlet var numbers: [UIButton]!
     @IBOutlet weak var numbersView: UIView!
     @IBOutlet weak var clearButton: UIButton!
@@ -79,6 +79,8 @@ class HYParentalGateViewController: UIViewController {
             UIcustomizer.customizeNumbers(with: config)
             UIcustomizer.customizeContainer(with: config)
             self.checkbox.checkMarkColor = config.backgroundColor.checkMarkColor.cgColor
+        } else {
+            self.checkbox.checkMarkColor = UIColor.green.cgColor
         }
         UIcustomizer.setupClearButton()
     }
