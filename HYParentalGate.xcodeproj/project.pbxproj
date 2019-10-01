@@ -15,6 +15,8 @@
 		2A2A78811DC7384D00FD0B4D /* HYCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A787A1DC7384D00FD0B4D /* HYCheckBox.swift */; };
 		2A2A78821DC7384D00FD0B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A787B1DC7384D00FD0B4D /* Assets.xcassets */; };
 		2A432A611DC0DC7500D063D9 /* HYParentalGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A108943A233E079500914E75 /* HYPGCustomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1089439233E079500914E75 /* HYPGCustomizer.swift */; };
+		A108943C233E07EC00914E75 /* HYParentalGateUIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A108943B233E07EC00914E75 /* HYParentalGateUIConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		2A432A5C1DC0DC7500D063D9 /* HYParentalGate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYParentalGate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYParentalGate.h; sourceTree = "<group>"; };
 		2A432A601DC0DC7500D063D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1089439233E079500914E75 /* HYPGCustomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPGCustomizer.swift; sourceTree = "<group>"; };
+		A108943B233E07EC00914E75 /* HYParentalGateUIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYParentalGateUIConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				2A2A787B1DC7384D00FD0B4D /* Assets.xcassets */,
 				2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */,
 				2A432A601DC0DC7500D063D9 /* Info.plist */,
+				A1089439233E079500914E75 /* HYPGCustomizer.swift */,
+				A108943B233E07EC00914E75 /* HYParentalGateUIConfig.swift */,
 			);
 			path = HYParentalGate;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2A432A521DC0DC7500D063D9;
@@ -156,6 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A108943C233E07EC00914E75 /* HYParentalGateUIConfig.swift in Sources */,
+				A108943A233E079500914E75 /* HYPGCustomizer.swift in Sources */,
 				2A2A787F1DC7384D00FD0B4D /* HYParentalGate.swift in Sources */,
 				2A2A787E1DC7384D00FD0B4D /* HYParentalGateViewController.swift in Sources */,
 				2A2A78801DC7384D00FD0B4D /* HYLocalizationHelper.swift in Sources */,

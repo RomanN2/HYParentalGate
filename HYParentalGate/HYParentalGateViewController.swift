@@ -20,12 +20,22 @@ class HYParentalGateViewController: UIViewController {
     @IBOutlet var digitLabels: [UILabel]!
     @IBOutlet weak var enterNumbersLabel: UILabel!
     @IBOutlet weak var forAdultsLabel: UILabel!
+    @IBOutlet weak var container: UIView!
+    @IBOutlet var numbers: [UIButton]!
+    @IBOutlet weak var numbersView: UIView!
+    @IBOutlet weak var clearButton: UIButton!
     
     weak var delegate: HYParentalGateViewDelegate?
+    var config: HYParentalGateUIConfig?
     
     fileprivate let digitsAmount = 3
     fileprivate var digits = [Int]()
     fileprivate let localizationHelper = HYLocalizationHelper()
+    
+    private lazy var UIcustomizer: HYPGCustomizer = { [unowned self] in
+        let customizer = HYPGCustomizer(with: self)
+        return customizer
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +53,7 @@ class HYParentalGateViewController: UIViewController {
     }
     
     func setup() {
+        customizeUI()
         setupDigits()
         setupDigitsTextLabel()
         forAdultsLabel.text = localizationHelper.stringForKey("adults_only")
@@ -60,6 +71,19 @@ class HYParentalGateViewController: UIViewController {
     }
     
     // MARK: Private
+    
+    fileprivate func customizeUI() {
+        if let config = self.config {
+            UIcustomizer.customizeLabels(with: config)
+            UIcustomizer.customizeDigits(with: config)
+            UIcustomizer.customizeNumbers(with: config)
+            UIcustomizer.customizeContainer(with: config)
+            self.checkbox.checkMarkColor = config.backgroundColor.checkMarkColor.cgColor
+        } else {
+            self.checkbox.checkMarkColor = UIColor.green.cgColor
+        }
+        UIcustomizer.setupClearButton()
+    }
     
     fileprivate func checkIfAllDigitsAreEntered() {
         guard allDigitsEntered() else { return }

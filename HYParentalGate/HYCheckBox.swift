@@ -10,6 +10,8 @@ import UIKit
 
 class HYCheckBox: UIView {
     
+    var checkMarkColor: CGColor?
+    
     @objc func drawCheck() {
         let path = UIBezierPath()
         path.move(to: CGPoint(x: 0, y: self.frame.size.height / 2.0))
@@ -19,7 +21,7 @@ class HYCheckBox: UIView {
         let pathLayer = CAShapeLayer()
         pathLayer.frame = self.bounds
         pathLayer.path = path.cgPath
-        pathLayer.strokeColor = UIColor.green.cgColor
+        pathLayer.strokeColor = checkMarkColor
         pathLayer.fillColor = nil
         pathLayer.lineWidth = 15.0
         pathLayer.lineJoin = CAShapeLayerLineJoin.round
