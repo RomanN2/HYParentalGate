@@ -32,7 +32,7 @@ public class HYParentalGate: NSObject, HYParentalGateViewDelegate, UIGestureReco
         self.UIConfig = config
     }
     
-    public func setupLauguage(with languageCode: String) {
+    public func setupLanguage(with languageCode: String) {
         self.languageCode = languageCode
     }
     
