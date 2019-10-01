@@ -259,7 +259,6 @@
                                 <constraint firstAttribute="height" constant="47" id="pel-ld-ynB"/>
                             </constraints>
                             <inset key="imageEdgeInsets" minX="11" minY="0.0" maxX="0.0" maxY="0.0"/>
-                            <state key="normal" image="mark" backgroundImage="back_arrow"/>
                             <connections>
                                 <action selector="onEraseAction:" destination="-1" eventType="touchUpInside" id="wK1-lX-WoO"/>
                             </connections>
@@ -350,8 +349,4 @@
             <point key="canvasLocation" x="71" y="153"/>
         </view>
     </objects>
-    <resources>
-        <image name="back_arrow" width="78" height="49"/>
-        <image name="mark" width="14" height="14"/>
-    </resources>
 </document>
